@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./stlye.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>حاسبة بلوت</title>
+ 
+</head>
+<body>
+    <h2>حاسبة بلوت</h2>
+    <div class="container">
+        <div>
+            <label for="numberForUs">الرقم لنا:</label> <!-- تغيير مسمى الرقم لنا -->
+            <input type="number" id="numberForUs" name="numberForUs"> <!-- تغيير مسمى الرقم لنا -->
+        </div>
+
+        <div>
+            <label for="numberForThem">الرقم لهم:</label> <!-- تغيير مسمى الرقم لهم -->
+            <input type="number" id="numberForThem" name="numberForThem"> <!-- تغيير مسمى الرقم لهم -->
+        </div>
+
+        <button onclick="performAction()">إضافة الرقم / الرجوع إلى العدد السابق</button>
+        <button onclick="resetCounters()">تصفير العداد</button>
+        <div id="sumForUs">الجمع لنا: 0</div> <!-- تغيير مسمى المجموع لنا -->
+        <div id="sumForThem">الجمع لهم: 0</div> <!-- تغيير مسمى المجموع لهم -->
+    </div>
+
+    <h1> تصميم واعداد <a href="https://t.co/jjoR2hvjWg">أحمد الفيصل</a></h1>
+    <script src="./mine.js"></script>
+</body>
+</html>
